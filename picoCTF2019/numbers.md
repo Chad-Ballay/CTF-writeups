@@ -12,4 +12,4 @@ Pulls up an image that is a simple substitution cipher.
 PICOCTF{THENUMBERSMASON}
 ```
 
-This one stumped me due to bouncing around the case.  I overthought it.
+This one stumped me for a bit due to bouncing around the case.  I overthought it.
