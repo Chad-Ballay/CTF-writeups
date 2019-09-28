@@ -51,4 +51,14 @@ if [ -f ./$c/$f ]; then
 	echo "File $f already exists so exiting"
 	exit 1
 fi
+
+echo "1. [$t]($f)" >> ./$c/README.md
+echo "# $t " > ./$c/$f
+echo "" >> ./$c/$f
+echo "## Problem" >> ./$c/$f
+echo "$p" >> ./$c/$f
+echo "" >> ./$c/$f
+echo "## Solution" >> ./$c/$f
+echo "$s" >> ./$c/$f
+
 exit
