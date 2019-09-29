@@ -2,13 +2,11 @@
 # c - ctf
 # f - filename
 # t - title
-# p - verbose problem
-# s - solution
 
 usage() { 
-echo "Usage: $0 -c CTF -f file.md -t 'Title' -p 'Problem Desc' -s 'Solution '" 1>&2; exit 1; }
+echo "Usage: $0 -c CTF -f file.md -t 'Title' " 1>&2; exit 1; }
 
-while getopts ":c:f:t:p:s:" o; do
+while getopts ":c:f:t:" o; do
 	case "${o}" in
 		c)
 			c=${OPTARG}
@@ -20,13 +18,6 @@ while getopts ":c:f:t:p:s:" o; do
 			t=${OPTARG}
                         ;;
 
-		p)
-			p=${OPTARG}
-                        ;;
-		s)
-			s=${OPTARG}
-                        ;;
-
 		*)
 			usage
 			;;
@@ -34,11 +25,8 @@ while getopts ":c:f:t:p:s:" o; do
 done
 shift "$(($OPTIND -1))"
 
-#if [ -z "${c}" ] || [ -z "${f}" ]  ; then
-#   usage
-#fi
-echo "c=$c f=$f t=$t p=$p s=$s"
-if [ -z "${c}" ] || [ -z "${f}" ] || [ -z "${t}" ] || [ -z "${p}" ] || [ -z "${s}" ] ; then
+echo "c=$c f=$f t=$t "
+if [ -z "${c}" ] || [ -z "${f}" ] || [ -z "${t}" ] ; then
     usage
 fi
 
@@ -56,9 +44,11 @@ echo "1. [$t]($f)" >> ./$c/README.md
 echo "# $t " > ./$c/$f
 echo "" >> ./$c/$f
 echo "## Problem" >> ./$c/$f
-echo "$p" >> ./$c/$f
+echo "" >> ./$c/$f
 echo "" >> ./$c/$f
 echo "## Solution" >> ./$c/$f
-echo "$s" >> ./$c/$f
+echo "" >> ./$c/$f
+echo "" >> ./$c/$f
+vi ./$c/$f
 
 exit
