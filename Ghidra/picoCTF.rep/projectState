@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROJECT>
+    <PROJECT_DATA_XML_NAME NAME="DISPLAY_DATA">
+        <SAVE_STATE>
+            <ARRAY NAME="EXPANDED_PATHS" TYPE="string">
+                <A VALUE="picoCTF:" />
+            </ARRAY>
+            <STATE NAME="SHOW_TABLE" TYPE="boolean" VALUE="false" />
+        </SAVE_STATE>
+    </PROJECT_DATA_XML_NAME>
+    <TOOL_MANAGER ACTIVE_WORKSPACE="Workspace">
+        <WORKSPACE NAME="Workspace" ACTIVE="true">
+            <RUNNING_TOOL TOOL_NAME="Version Tracking">
+                <ROOT_NODE X_POS="448" Y_POS="42" WIDTH="1090" HEIGHT="1023" EX_STATE="0">
+                    <SPLIT_NODE WIDTH="1090" HEIGHT="915" DIVIDER_LOCATION="662" ORIENTATION="VERTICAL">
+                        <COMPONENT_NODE TOP_INFO="0">
+                            <COMPONENT_INFO NAME="Version Tracking Matches" OWNER="VTPlugin" TITLE="Version Tracking Matches" ACTIVE="true" GROUP="VTResults.MatchesTable" INSTANCE_ID="3292370833082175862" />
+                        </COMPONENT_NODE>
+                        <COMPONENT_NODE TOP_INFO="0">
+                            <COMPONENT_INFO NAME="Version Tracking Markup Items" OWNER="VTPlugin" TITLE="Version Tracking Markup Items" ACTIVE="true" GROUP="VTResults" INSTANCE_ID="3292370833082175863" />
+                            <COMPONENT_INFO NAME="Version Tracking Implied Matches" OWNER="VTPlugin" TITLE="Version Tracking Implied Matches" ACTIVE="true" GROUP="VTResults" INSTANCE_ID="3292370833082175866" />
+                            <COMPONENT_INFO NAME="Version Tracking Functions" OWNER="VTPlugin" TITLE="Version Tracking Functions" ACTIVE="false" GROUP="VTResults" INSTANCE_ID="3292370833082175867" />
+                        </COMPONENT_NODE>
+                    </SPLIT_NODE>
+                </ROOT_NODE>
+                <DATA_STATE />
+            </RUNNING_TOOL>
+        </WORKSPACE>
+    </TOOL_MANAGER>
+</PROJECT>
+
