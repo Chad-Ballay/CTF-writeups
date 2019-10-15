@@ -2,6 +2,9 @@
 
 This one is geared to middle/high schoolers.  Mainly it's to get an understanding of how CTF's work and to have fun. Using it to work out the kinks of writeups and documenting.
 
+In the end work/life stopped me from continued effort.  
+![progress.png](progress.png)
+
 Site: [https://2019game.picoctf.com/](https://2019game.picoctf.com/)
 
 1. [The Factory's Secret](factory_secret.md)
