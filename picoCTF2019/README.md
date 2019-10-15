@@ -47,4 +47,3 @@ Site: [https://2019game.picoctf.com/](https://2019game.picoctf.com/)
 1. [Mr Worldwide](mr-worldwide.md)
 1. [La Cifra De](la-cifra-de.md)
 1. [Vault-door-5](vault-door-5.md)
->>>>>>> 8f98a51bc9e6ca3bb9a91a1dd68c3c86e856774b
