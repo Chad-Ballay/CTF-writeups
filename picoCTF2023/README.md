@@ -12,3 +12,4 @@ The format of the CTF has changed a bit.  Previously each year's CTF was maintai
 ### Solutions
 
 1. [More SQLi](more_sqli.md)
+1. [Hideme](hideme.md)
