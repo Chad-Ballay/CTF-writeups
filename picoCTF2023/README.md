@@ -9,5 +9,6 @@ The format of the CTF has changed a bit.  Previously each year's CTF was maintai
 3.  Next go to the Practice area of the website.  [https://play.picoctf.org/practice](https://play.picoctf.org/practice)  
 4.  From the filter categories on the left choose picoCTF2023.  You'll end up with this url.  [https://play.picoctf.org/practice?originalEvent=72&page=1](https://play.picoctf.org/practice?originalEvent=72&page=1)  
 
+### Solutions
 
 1. [More SQLi](more_sqli.md)
